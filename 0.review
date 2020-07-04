@@ -4,7 +4,7 @@
 4."Hello World".split() -> ["Hello", "World"]
   "Hello:World".split(:) -> ["Hello", "World"]
 5.
-6.
+6.from datetime import datetime 이용하면 간단하게 할 수 있다.
 7.
 8.
 9.
