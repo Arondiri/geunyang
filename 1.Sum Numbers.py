@@ -25,3 +25,11 @@ def sum_numbers(text: str) -> int:
         for i in B[0]:
             c += int(i)
         return c
+#%%
+#이렇게 하면 훨씬 간단하죠?
+def sum_numbers(text: str) -> int:
+    A = []
+    for i in text.split():
+        if i.isdigit():
+            A.append(int(i))
+    return sum(A)
