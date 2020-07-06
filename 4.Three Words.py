@@ -1,5 +1,4 @@
 def checkio(words: str) -> bool:
-    A = list(words)
     a = 0
     for i in words.split():
         if i.isalpha():
