@@ -30,3 +30,8 @@ def backward_string_by_word(text: str) -> str:
             for i in range(len(B)-1):
                 B[i] = B[i]+text[E[i]+D[i]:E[i+1]+D[i]]
             return ''.join(B)
+
+#%%
+def backward_string_by_word(text):
+    return ' '.join(word[::-1] for word in text.split(' '))
+#라고 하니까 너무 간단하고;;
