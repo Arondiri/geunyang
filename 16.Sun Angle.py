@@ -1,4 +1,5 @@
-time = time.split(':')
+def sun_angle(time):
+    time = time.split(':')
     for i in range(len(time)):
         time[i] = int(time[i])
     if time[0] < 6 or (time[0] >= 18 and time[1] > 0):
