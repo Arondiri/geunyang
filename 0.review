@@ -6,12 +6,15 @@
 5.
 6.from datetime import datetime 이용하면 간단하게 할 수 있다.
 7.
-8.str[a:b:c] a(포함)~b(미포함) c
+8.str[a:b:c] -> a(포함)~b(미포함) c칸씩
 9.
 10.
 11.
 12.
-13.
+13.dict.keys(), dict.values() -> 이용 키나 값 리스트
+  dict.items() -> 키, 값 쌍(튜플) 리스트
+  sorted(dict) -> 키 기준 오름차순 정렬(str, list, set, tuple도 맹)
+  sorted(dict.items(), key=lambda x:x[1]) -> 값 기준 오름차순 정렬(reverse=True하면 내림차순)
 14.
 15.
 16.
