@@ -15,7 +15,12 @@
   dict.items() -> 키, 값 쌍(튜플) 리스트
   sorted(dict) -> 키 기준 오름차순 정렬(str, list, set, tuple도 맹)
   sorted(dict.items(), key=lambda x:x[1]) -> 값 기준 오름차순 정렬(reverse=True하면 내림차순)
-14.
+14.index(a,b,c) -> b번째에서 c번째 위치까지 중에서 a 찾기
+  index(a,b) -> b번째부터 끝까지가 되겠죠?
+  try:
+    ...
+  except [발생 오류[as 오류 메시지 변수]]:  #[]는 안 내용 생략 가능
+    ... ->오류 발생시 밑에꺼 실행
 15.
 16.
 17.
